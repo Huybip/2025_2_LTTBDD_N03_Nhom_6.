@@ -1,0 +1,22 @@
+{
+  "@@locale": "en",
+  "appTitle": "Music App",
+  "tabHome": "Home",
+  "tabDiscovery": "Discovery",
+  "tabAccount": "Account",
+  "tabSettings": "Settings",
+  "loadingSongs": "Loading songs…",
+  "settingsTitle": "Settings",
+  "language": "Language",
+  "languageEnglish": "English",
+  "languageVietnamese": "Vietnamese",
+  "groupInfo": "Group info",
+  "groupInfoTitle": "About the team",
+  "discoveryTitle": "Discovery",
+  "accountTitle": "Account",
+  "notImplementedYet": "Not implemented yet",
+  "appearance": "Appearance",
+  "themeSystem": "Use device theme",
+  "themeLight": "Light theme",
+  "themeDark": "Dark theme"
+}
