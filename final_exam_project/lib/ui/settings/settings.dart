@@ -110,7 +110,7 @@ class _SectionTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     return Padding(
-      padding: const EdgeInsets.only(left: 4, bottom: 😎,
+      padding: const EdgeInsets.only(left: 4, bottom: 8),
       child: Text(
         text,
         style: Theme.of(context).textTheme.labelLarge?.copyWith(
