@@ -1,4 +1,4 @@
-import 'package:demo/l10n/app_localizations.dart';
+import 'package:final_exam_project/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 
 class AccountTab extends StatelessWidget {
@@ -25,7 +25,7 @@ class AccountTab extends StatelessWidget {
                   : 'Account',
               style: Theme.of(context).textTheme.titleMedium,
             ),
-            const SizedBox(height: 😎,
+            const SizedBox(height: 8),
             _buildAccountSection(context),
             const SizedBox(height: 24),
             Text(
@@ -34,7 +34,7 @@ class AccountTab extends StatelessWidget {
                   : 'More settings',
               style: Theme.of(context).textTheme.titleMedium,
             ),
-            const SizedBox(height: 😎,
+            const SizedBox(height: 8),
             _buildOtherSection(context),
           ],
         ),
@@ -112,7 +112,7 @@ class AccountTab extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Icon(Icons.favorite, size: 20),
-                const SizedBox(height: 😎,
+                const SizedBox(height: 8),
                 Text(
                   '24',
                   style: Theme.of(context).textTheme.titleMedium,
@@ -143,7 +143,7 @@ class AccountTab extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Icon(Icons.history, size: 20),
-                const SizedBox(height: 😎,
+                const SizedBox(height: 8),
                 Text(
                   '120',
                   style: Theme.of(context).textTheme.titleMedium,
