@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:demo/l10n/app_localizations.dart';
-import 'package:demo/app/app_locale.dart';
-import 'package:demo/app/app_theme.dart';
-import 'package:demo/ui/settings/group_info.dart';
+import 'package:final_exam_project/l10n/app_localizations.dart';
+import 'package:final_exam_project/app/app_locale.dart';
+import 'package:final_exam_project/app/app_theme.dart';
+import 'package:final_exam_project/ui/settings/group_info.dart';
 
 class SettingsTab extends StatelessWidget {
   const SettingsTab({super.key});
