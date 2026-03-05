@@ -52,7 +52,7 @@ class _NowPlayingPageState extends State<NowPlayingPage>
       duration: const Duration(milliseconds: 12000),
     );
     _audioPlayerManager = AudioPlayerManager(songUrl: _song.source);
-    audioPlayerManager.init().then(() {
+    _audioPlayerManager.init().then((_) {
       _audioPlayerManager.player.play();
     });
     _selectedItemIndex = widget.songs.indexOf(widget.playingSong);
@@ -78,8 +78,8 @@ class _NowPlayingPageState extends State<NowPlayingPage>
             children: [
               const SizedBox(height: 56),
               Text(_song.album),
-              const Text('_ _ _'),
-              const SizedBox(height: 😎,
+              const Text('_ ___ _'),
+              const SizedBox(height: 8),
               RotationTransition(
                 turns: Tween(
                   begin: 0.0,
@@ -124,7 +124,7 @@ class _NowPlayingPageState extends State<NowPlayingPage>
                                   ).textTheme.bodyMedium!.color,
                                 ),
                           ),
-                          // const SizedBox(height: 😎,
+                          // const SizedBox(height: 8),
                           Text(
                             _song.artist,
                             style: Theme.of(context).textTheme.bodyMedium!
@@ -244,7 +244,7 @@ class _NowPlayingPageState extends State<NowPlayingPage>
             processingState == ProcessingState.buffering) {
           _pauseRotationAnim();
           return Container(
-            margin: const EdgeInsets.all(😎,
+            margin: const EdgeInsets.all(8),
             width: 48,
             height: 48,
             child: const CircularProgressIndicator(),
