@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:demo/ui/discovery/discovery.dart';
-import 'package:demo/ui/home/viewmodel.dart';
-import 'package:demo/ui/settings/settings.dart';
-import 'package:demo/ui/user/user.dart';
+import 'package:final_exam_project/ui/discovery/discovery.dart';
+import 'package:final_exam_project/ui/home/viewmodel.dart';
+import 'package:final_exam_project/ui/settings/settings.dart';
+import 'package:final_exam_project/ui/user/user.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:demo/app/app_locale.dart';
-import 'package:demo/app/app_theme.dart';
-import 'package:demo/l10n/app_localizations.dart';
+import 'package:final_exam_project/app/app_locale.dart';
+import 'package:final_exam_project/app/app_theme.dart';
+import 'package:final_exam_project/l10n/app_localizations.dart';
 
 import '../../data/model/song.dart';
 import '../now_playing/playing.dart';
@@ -165,7 +165,7 @@ class _HomeTabPageState extends State<HomeTabPage> {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.fromLTRB(16, 12, 16, 😎,
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
               child: TextField(
                 controller: _searchController,
                 onChanged: (_) => _applyFilter(),
