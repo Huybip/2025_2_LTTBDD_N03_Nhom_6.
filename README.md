@@ -1,3 +1,7 @@
+# Thông tin về nhóm 6: 
+1. Lê Thị Hương Giang - 23010140
+2. Trần Quốc Huy - 23010184
+
 # Demo Flutter Project
 
 Ứng dụng mẫu được xây dựng bằng Flutter nhằm phục vụ mục đích học tập và thử nghiệm các kỹ thuật như đa ngôn ngữ, trình phát audio, UI đẹp và cấu trúc dự án rõ ràng.
